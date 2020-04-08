@@ -1,0 +1,47 @@
+channels:
+- conda-forge
+- paulscherrerinstitute
+- anaconda
+- defaults
+dependencies:
+- python=3.7*
+- numpy
+- scipy
+- lmfit
+- matplotlib
+- ipython
+- jupyter
+- jupyterlab
+- appmode
+- ipympl  
+- nodejs
+- jupyter_contrib_nbextensions
+- memory_profiler
+- line_profiler
+- dask
+- distributed
+- dask-jobqueue
+- numba
+- tqdm
+#- bsread
+#- cam_server
+#- data_api
+#- detector_integration_api
+#- elog
+#- jungfrau_utils
+#- photodiag
+#- psen_processing
+#- pyepics
+#- xrayutilities
+#- xraylib
+- pip
+- pip:
+  - black
+  - datastorage
+  - joblib
+  - playsound
+  - plotille
+  - colorama
+  - pint
+  - git+https://github.com/htlemke/escape-fel@dev
+
